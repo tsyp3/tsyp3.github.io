@@ -8,24 +8,44 @@
 </head>
 
 <body>
+
+    <nav>
+        <a href="../index.html"></a>
+        <a href="../pages2/about.html"></a>
+        <a href="../pages2/description.html"></a>
+        <a href="../pages2/discography.html"></a>
+        <a href="../pages2/awards.html"></a>
+        <a href="../pages2/directedprojects.html"></a>
+        <a href="comment.html"></a>
+    </nav>
+
     <h2 align="center">Leave a Comment</h2>
-    <form action="request.php" align="center">
-        <label for="name">Name</label>
-        <input type="text" name="user_name" id="name">
-        <br><br>
-        <label for="email">Email</label>
-        <input type="text" name="user_email" id="email">
-        <br><br>
-        <label for="comment">Comment</label>
-        <textarea name="user_comment" id="adress" rows="10" cols="50"></textarea>
-        <br><br>
-        <button type="submit">Add</button>
+    <form>
+        <table align="center">
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Comment:</td>
+                <td><textarea name="comment"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
     </form>
 </body>
 <br>
 <hr>
 <footer>
-    <p align="center">&copy; All right reserved | Make with <span style="color: rgb(205, 59, 139);">&hearts;</span>by Thetsu.</p>
+    <p align="center ">&copy; All right reserved | Make with <span style="color: rgb(205, 59, 139); ">&hearts;</span>by Thetsu.</p>
 </footer>
+
 
 </html>
