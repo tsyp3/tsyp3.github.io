@@ -79,3 +79,64 @@ a:visited {
     color: red;
     border: 2px solid black;
 }
+
+
+/* border */
+
+.borderOne {
+    border: 20px dashed yellow;
+}
+
+.borderTwo {
+    border-left: 10px solid red;
+}
+
+.borderSizeOne {
+    border-style: solid;
+    /* border-width: 10px; */
+    /* T R B L */
+    /* border-width: 10px 100px; */
+    /* T&b / L&R */
+    /* border-width: 10px 50px 100px; */
+    /* T / L&R / B  */
+    border-width: 1px 5px 10px 15px;
+    /* T R B L */
+}
+
+.borderStyle {
+    border-style: solid dashed double dotted;
+    border-color: red green;
+}
+
+
+/* margin */
+
+.margin {
+    border: 1px solid black;
+    /* margin: 100px; */
+    margin: -50px 20px;
+    margin-left: 20px;
+}
+
+
+/* padding */
+
+.padding {
+    border: 1px solid red;
+    padding: 100px 10px 5px 20px;
+}
+
+
+/* inline */
+
+.inline {
+    border: 2px solid red;
+    width: 300px;
+    display: inline-block;
+}
+
+.block {
+    border: 2px solid black;
+    width: 300px;
+    display: inline-block;
+}
